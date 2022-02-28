@@ -4,10 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>'Laravel'</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+         <!-- Fonts -->
+         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -19,11 +17,12 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
-    </head>
-    <body>
 
-<h1>Projet du 28/02/22 - Reprise Laravel PHP</h1>
-<h2>C'est la Home Page</h2>
+    <title>Panier</title>
+</head>
+<body>
+
+<h1>C'est le panier</h1>
 
 </body>
 </html>
