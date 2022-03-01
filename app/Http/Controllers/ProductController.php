@@ -24,8 +24,13 @@ class ProductController extends Controller
             return view('product_list');
         }
 
+        // public function IdProduct($id){
+        //     return view('product_details')->withNumero($id);
+        // }
+
+        // système de clé => valeur afin d'utiliser la clé dans le reste du code
         public function IdProduct($id){
-            return view('product_details')->withNumero($id);
+            return view('product_details', ['name' => $id]);
         }
 }
-?>
+?> 

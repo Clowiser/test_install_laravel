@@ -23,6 +23,9 @@
 <body>
 
 <h1>C'est un produit en particulier</h1>
+<p>
+    Voici l'article {{$name}} !
+        </p>
 
 </body>
 </html>
