@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Request;
 
-// 2 - CONTROLLER sans  view
+// 2 - CONTROLLER sans view
 class CartController extends Controller
 {
     public function panier(){
@@ -12,7 +12,7 @@ class CartController extends Controller
     }
 }
 
-// // 3 - Création de view en passant par le controller
+// 3 - CONTROLLER avec view
 // class CartController extends Controller
 // {
 //     public function panier(){

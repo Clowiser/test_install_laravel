@@ -32,9 +32,8 @@ Route::get('/cart', function () {
     return view('cart');
 });
 
-// 2 - CONTROLLER sans view
 
-
+// 2 - CONTROLLER
 Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/cart', [CartController::class, 'panier']);
